@@ -98,3 +98,24 @@
 .transition {
     transition: all 0.8s ease-in-out;
 }
+
+.bg-img{
+    @media (width >= 40rem /* 640px */) {
+        background-image: url(../images/main-image.png);
+    }
+}
+.about-bg1{
+    background-image: url(../images/about-1.jpg);
+}
+.about-bg2{
+    background-image: url(../images/about-2.jpg);
+}
+.about-bg3{
+    background-image: url(../images/about-3.jpg);
+}
+.about-bg4{
+    background-image: url(../images/about-4.jpg);
+}
+.developer-bg{
+    background-image: url(../images/developer.png);
+}
